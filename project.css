@@ -1,0 +1,535 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+.header{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    background-color: #f90a2d;
+    background-blend-mode:multiply;
+    opacity: 0.85;    
+}
+
+.head{
+    width:100%;
+    height: 100px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tv img{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar nav li{
+    display: inline-block;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+    font-size: 15px;
+    padding: 35px;
+    height: 100%;
+}
+
+.navbar nav li:hover{
+    opacity: 0.7;
+    background-color: rgba(170, 146, 146, 0.747);
+} 
+
+nav span{
+    display: block;
+    font-size: 0.70rem;
+}
+
+.navbar{
+    margin: 0px 250px;
+}
+
+.icon li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.product1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 100px;
+    
+}
+
+.textproduct{
+    padding-right: 50px;
+    color: white;
+    
+}
+
+.textproduct h2{
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.textproduct h1{
+    font-size: 50px;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.textproduct p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.view{
+    font-size: 16px;
+    height: 50px;
+    width: 200px;
+    padding: 13px 60px;
+    margin-left: 0px;
+}
+
+.view:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+    border: none;
+}
+
+.img1{
+    height: 500px;
+    width: 400px;
+    padding-left: 50px;
+}
+
+.text1 h4{
+    width: 960px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 35px;
+    margin-left: 100px;
+}
+
+.text1 h3{
+    width: 960px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 46px;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.product-details{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.product-details h5{
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.product-img{
+    height: 400px;
+    width: auto;
+    padding-left: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.style1{
+    background-image: url(background.png);
+    height: 500px;
+    width: 100%;
+    margin-top: 150px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background-color: #f90a2d;
+    background-blend-mode:multiply ;
+    opacity: 0.85;
+}
+
+.style1 h3{
+    width: 420px;
+    height: 26px;
+    font-size: 16px;
+}
+
+.style1 h2{
+    width: 420px;
+    height: 50px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.style1 h5{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.list-text1{
+    width: 44px;
+    height: 24px;
+    font-size: 16px;
+    margin-right: 30px;
+    font-weight: 550;
+}
+
+.list-text2{
+    width: 344px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 530;
+
+}
+
+.style1 a{
+    color: white;
+    width: 133px;
+    height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 75px;
+}
+
+.style1 a span{
+    margin-left: 10px;
+}
+
+.style1 img{
+    width: 50%;
+}
+
+.style1 div{
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 170px;
+}
+
+.img-list{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.img-list img{
+    height: 100px;
+    width: 100px;
+    margin: 40px;
+    padding: 5px;
+    opacity: 0.4;
+}
+
+.img-list img:hover{
+    opacity: 0.9;
+}
+
+.text2{
+    background-color: #eeeeee;
+    margin-top: 30px;
+}
+
+.text21{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.text2 h4{
+    width: 928px;
+    height: 24px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.text2 h3{
+    width: 928px;
+    height: 50px;
+    font-size: 44px;
+}
+
+.product-details1{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 50px 10px;
+    height: 740px;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.vertical1{
+    writing-mode: vertical-lr;
+    padding-top: 30px;
+    margin-left: 10px;
+    font-weight: 550;
+}
+
+.product-img2 h2{
+    width: 248px;
+    height: 36px;
+    font-size: 24px;
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+.list-text3{
+    height: 64px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.list-text4{
+    display: flex;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 550;
+    margin: 15px 0px;
+}
+
+.list-text4 span{
+    margin-left: 10px;
+}
+
+.web-details{
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 140px;
+    display: flex;
+}
+
+.web-details img{
+    width: 120px;
+    height: 120px;
+}
+
+.web-det1{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.web-det2{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.det1{
+    font-size: 28px; 
+    font-weight: 600; 
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.det2{
+    color: #4c4c4c;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.style2{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    margin-right: 140px;
+    margin-top: 250px;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    background-color: #f90a2d;
+    background-blend-mode:multiply ;
+    opacity: 0.85;
+}
+
+.style2 div{
+    justify-content: center;
+    margin-top: 200px;
+    margin-right: 120px;
+}
+
+.style2 img{
+    width: 750px;
+    height: 500px;
+    margin-top: 80px;
+}
+
+.style2 h3{
+    width: 420px;
+    height: 26px;
+    font-size: 16px;
+}
+
+.style2 h2{
+    width: 420px;
+    height: 50px;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 550;
+}
+
+.style2 h5{
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+
+.style2 h5 .list-text{
+    margin-right: 30px;
+}
+
+.style2 a{
+    color: white;
+    width: 133px;
+    height: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 85px;
+}
+
+.style2 a span{
+    margin-left: 10px;
+}
+
+.range{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.range div{
+    margin-top: 20px;
+}
+
+.range h3{
+    font-size: 45px; 
+    color: black; 
+    font-weight: 600;
+}
+
+.brand{
+    color: black; 
+    display: flex; 
+    font-size: larger; 
+    justify-content: space-between; 
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.meter1{
+    width: 520px;
+    height: 4px; 
+    background-color: black;
+    margin-bottom: -10px;
+}
+
+.meter2{
+    width: 480px;
+    height: 4px; 
+    background-color: black;
+    margin-bottom: -10px;
+}
+
+.meter3{
+    width: 440px;
+    height: 4px; 
+    background-color: black;
+    margin-bottom: -10px;
+}
+
+.meter{
+    width: 560px;
+    height: 0.5px; 
+    background-color: black;
+}
+
+.range-img img{
+    height: 600px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+.last-container{
+    height: 400px;
+    background-color: #1d1d1f;    
+    padding-left: 35px;
+    color: white;
+    padding-top: 80px;
+}
+
+.last-container img{
+    height: 50px;
+    width: 50px;
+    padding-right: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.last-container div{
+    display: flex;
+    font-size: 22px;
+}
+
+.last-container h2{
+    font-size: 43px;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+
+.last-container h5{
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.705);
+    background-attachment: fixed;
+    height: 60px;
+    font-size: large 20px;
+    padding-top: 35px;
+}
+
+
+
+
+
